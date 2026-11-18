@@ -13,7 +13,7 @@ def test_withdraw():
     assert upadatedbal == 130000
 
 def test_anyamount():
-    totalBal , updatedBal = bankoper(150000, 0 , 150000)
+    totalBal , updatedBal = bankoper(150000, 0 , 15000)
 
     assert totalBal == 150000
     assert updatedBal == 135000

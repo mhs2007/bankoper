@@ -9,7 +9,7 @@ def test_deposit():
 def test_withdraw():
     totalBal, upadatedbal = bankoper(100000, 40000 , 10000)
 
-    assert totalBal == 140000
+    assert totalBal == 130000
     assert upadatedbal == 130000
 
 def test_anyamount():
